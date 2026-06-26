@@ -450,7 +450,7 @@ inside the project root directory.
 ## Step 5: Run Project
 
 ```bash
-python cbsotproject1.py
+python cbsotproject1.ipynb
 ```
 
 ---
