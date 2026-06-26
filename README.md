@@ -96,7 +96,7 @@ The dataset contains information about:
 * Matplotlib
 * Seaborn
 * Scikit-Learn
-* Google Colab
+* Jupyter Notebook
 
 ---
 
