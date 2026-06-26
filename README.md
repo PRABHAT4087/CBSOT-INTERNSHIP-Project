@@ -100,47 +100,8 @@ The dataset contains information about:
 
 ---
 
-# Why Random Forest?
+I used RandomForest and K-Means for this project.
 
-Random Forest was selected because:
-
-1. Handles both numerical and categorical features.
-2. Reduces overfitting using multiple decision trees.
-3. Provides feature importance ranking.
-4. High accuracy for classification tasks.
-5. Robust against noisy data.
-6. Works effectively on customer churn datasets.
-
-### Working of Random Forest
-
-1. Multiple decision trees are created.
-2. Each tree receives a random subset of training data.
-3. Every tree predicts churn independently.
-4. Majority voting determines the final prediction.
-
-Formula:
-
-Prediction = Mode(Tree₁, Tree₂, Tree₃, ... Treeₙ)
-
----
-
-# Why K-Means Clustering?
-
-K-Means clustering was chosen because:
-
-1. Simple and efficient clustering algorithm.
-2. Suitable for customer segmentation.
-3. Fast execution even on large datasets.
-4. Easy interpretation of customer groups.
-
-### Working of K-Means
-
-1. Select K cluster centroids.
-2. Assign customers to nearest centroid.
-3. Recalculate cluster centers.
-4. Repeat until centroids stabilize.
-
----
 
 # Project Workflow
 
@@ -263,48 +224,13 @@ RandomForestClassifier(
 
 # Model Evaluation Metrics
 
-## Accuracy
+ *Accuracy
+ *Precision
+ *Recall
+ *F1 Score
+ *Confusion Matrix
 
-Measures overall prediction correctness.
 
-Accuracy = Correct Predictions / Total Predictions
-
----
-
-## Precision
-
-Measures correctness of churn predictions.
-
-Precision = TP / (TP + FP)
-
----
-
-## Recall
-
-Measures ability to identify actual churn customers.
-
-Recall = TP / (TP + FN)
-
----
-
-## F1 Score
-
-Balances Precision and Recall.
-
-F1 = 2 × (Precision × Recall) / (Precision + Recall)
-
----
-
-## Confusion Matrix
-
-Used to evaluate:
-
-* True Positive
-* True Negative
-* False Positive
-* False Negative
-
----
 
 # Model Improvement Techniques
 
@@ -395,17 +321,8 @@ Purpose:
 
 ROC Curve and AUC Score were used to measure classification performance.
 
-Interpretation:
+My project auc-score is 0.857.
 
-| AUC Score | Performance |
-| --------- | ----------- |
-| 0.5       | Poor        |
-| 0.6-0.7   | Fair        |
-| 0.7-0.8   | Good        |
-| 0.8-0.9   | Very Good   |
-| >0.9      | Excellent   |
-
----
 
 # Customer Segmentation
 
