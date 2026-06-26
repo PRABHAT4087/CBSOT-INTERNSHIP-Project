@@ -422,13 +422,13 @@ This project helps telecom companies:
 ## Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/customer-churn-prediction.git
+git clone https://github.com/yourusername/CBSOT-INTERNSHIP-PROJECT.git
 ```
 
 ## Step 2: Navigate to Project Directory
 
 ```bash
-cd customer-churn-prediction
+cd CBSOT-INTERNSHIP-PROJECT
 ```
 
 ## Step 3: Install Required Libraries
