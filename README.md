@@ -1,6 +1,4 @@
-# CBSOT-INTERNSHIP-Project
-
-# CustomerChurnPrediction
+# CBSOT-INTERNSHIP-Project-1
 
 # Customer Churn Prediction and Customer Segmentation System
 
